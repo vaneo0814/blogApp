@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Blog Login" content="Enter your description here" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PaB/Login</title>
+</head>
+
+<body>
+    <body class="signupBody">
+
+        <!-- beginning of nav bar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.ibb.co/dcJ68hG/Screen-Shot-2020-12-12-at-12-06-16-PM.png" alt="logo" width="80"
+                        height="" class="d-inline-block align-top logo">
+                </a>
+                <!--home button in nav-->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/viewblogs">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <!--create button in nav-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/createblog">
+                                <i class="fas fa-pencil-alt"></i>
+                            </a>
+                        </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Sign out
+                        </a>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of nav bar-->
+
+    <div class="container" id="headMar">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="loginH">Potentially a Login Screen</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="loginForm">
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <h2 class="loginH2">Please provide your information</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center" id="usernameCon">
+                        <input id="userInput" placeholder="Username" type="text" class="loginInput"/>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center" id="usernameCon">
+                        <input id="passwordInput" placeholder="Password" type="password" class="loginInput" />
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-4 col-lg-6">
+                        <button id="loginButton" class="btn btn-primary btn-block mt-3 mt-lg-5">Log In</button>
+                        <a href="signUp.html">
+                        <button id="signupButton" class="btn btn-primary btn-block mt-3 mt-lg-5">Don't have an account? Sign up</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

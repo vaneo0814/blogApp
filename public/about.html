@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f84283eaae.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>PaB/register</title>
+</head>
+
+<body class="aboutBody">
+
+    <!-- beginning of nav bar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.ibb.co/dcJ68hG/Screen-Shot-2020-12-12-at-12-06-16-PM.png" alt="logo" width="80"
+                    height="" class="d-inline-block align-top logo">
+            </a>
+            <!--home button in nav-->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/viewblogs">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </li>
+                    <!--create button in nav-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/createblog">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="notloggedin" class="nav-link" href="/userblog">
+                          <i class="fas fa-user-edit"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/logout">
+                          Sign out
+                      </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav bar-->
+
+    <div class="paginationContainer">
+        <ul class="pagination">
+            <li class="page-item" aria-current="page">
+                <a class="page-link" href="signUp.html">Sign-up</a>
+            </li>
+            <li class="page-item active">
+                <span class="page-link">About Us</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="aboutContainer">
+        <img class="logoImg" src="https://i.ibb.co/dcJ68hG/Screen-Shot-2020-12-12-at-12-06-16-PM.png" width="250"
+            alt="logo">
+        <h2 class="aboutHeader">
+            <span>Potentially a Blog</span>, an online platform to express your thoughts or memes, or both. You choose.
+        </h2>
+        <p class="aboutParagraph">
+            <span>PaB</span> made it really simple for anyone to make a blog and think freely. Stories, MEMES, dumb
+            jokes, smart jokes, dad jokes, art, deep thoughts, everyday thoughts. PaB welcomes everyone, so come on in.
+        </p>
+    </div>
+
+
+
+
+
+    <script src="js/signup.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
