@@ -25,7 +25,3 @@ We wanted to create a blogging application where we could use passwords and sign
  # Link to Github Repository:
 
 https://github.com/Lohelani/potentially-a-blog
-
-# Screenshot
-
-![image](https://user-images.githubusercontent.com/70550481/103064561-40ca5900-4582-11eb-9415-60bdba920625.png)
